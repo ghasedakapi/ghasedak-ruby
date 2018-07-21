@@ -1,1 +1,2 @@
-# -*- coding: UTF-8 -*-
+require 'ghasedak/request'
+require 'ghasedak/api'

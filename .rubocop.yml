@@ -5,7 +5,7 @@ Metrics/MethodLength:
   Max: 75
 
 Metrics/ClassLength:
-  Max: 2000
+  Max: 5000
 
 Metrics/AbcSize:
   Max: 69
@@ -25,8 +25,8 @@ Style/WordArray:
 Style/AsciiComments:
   Enabled: false
 
-Style/MethodMissing:
+Style/ConstantName:
   Enabled: false
 
-Style/ConstantName:
-Enabled: false
+AllCops:
+  TargetRubyVersion: 2.2
