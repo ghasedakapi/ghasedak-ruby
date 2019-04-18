@@ -5,9 +5,9 @@ module Ghasedak
     include HTTParty
     include Request
 
-    @api_base = 'api.ghasedakapi.com'
+    @api_base = 'api.ghasedak.io'
 
-    def initialize(api_key, api_version = '/api/v1', api_base = 'api.ghasedakapi.com')
+    def initialize(api_key, api_version = '/api/v1', api_base = 'api.ghasedak.io')
       @api_key = api_key
       @api_version = api_version
       @api_base = api_base
